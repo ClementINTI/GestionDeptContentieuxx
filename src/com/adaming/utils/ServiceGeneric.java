@@ -2,8 +2,8 @@ package com.adaming.utils;
 
 import java.util.List;
 
-
 public interface ServiceGeneric  <T> {
+
 
 	public void create(T obj);
 	
@@ -16,3 +16,5 @@ public interface ServiceGeneric  <T> {
 	public List<T> find(Class<T> obj);
 
 }
+
+
