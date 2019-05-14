@@ -1,5 +1,6 @@
 package com.adaming.run;
 
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,10 +11,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.adaming.entities.Utilisateur;
 import com.adaming.service.interfaces.ITacheService;
-import com.adaming.service.interfaces.IUtilisateurService;
 import com.adaming.service.interfaces.IAffaireService;
 import com.adaming.service.interfaces.IPhaseService;
 import com.adaming.service.interfaces.ITribunalService;
+import com.adaming.service.interfaces.IUtilisateurService;
 
 public class Main {
 
